@@ -1,1 +1,11 @@
+---
+layout: layouts/home.njk
+tags:
+  - nav
+navtitle: Home
+---
 
+<h1>Hottest 3 Projs</h1>
+
+{% set projectslist = collections.projects | head(-3) %}
+{% include "projectslist.njk" %}
