@@ -7,6 +7,11 @@
   --navy: #17050F;
   --blue: #082840;
   --white: #fff;
+  —-stella-green: #a9bd98;
+  —-stella-coral-light: #dba498;
+  —-stella-coral-dark: #bf7973;
+  —-stella-red: #59343b;
+  —-stella-blue: #bfd9d6;
 }
 * {
   box-sizing: border-box;
@@ -16,8 +21,8 @@ body {
   padding: 0;
   margin: 0;
   font-family: sans-serif;
-  color: var(--darkgray);
-  background-color: var(--white);
+  color: var(--stella-green);
+  background-color: var(--stella-coral-light);
 }
 p:last-child {
   margin-bottom: 0;
