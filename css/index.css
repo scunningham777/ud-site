@@ -7,11 +7,11 @@
   --navy: #17050F;
   --blue: #082840;
   --white: #fff;
-  —-stella-green: #a9bd98;
-  —-stella-coral-light: #dba498;
-  —-stella-coral-dark: #bf7973;
-  —-stella-red: #59343b;
-  —-stella-blue: #bfd9d6;
+  --stella-green: #a9bd98;
+  --stella-coral-light: #dba498;
+  --stella-coral-dark: #bf7973;
+  --stella-red: #59343b;
+  --stella-blue: #bfd9d6;
 }
 * {
   box-sizing: border-box;
@@ -21,8 +21,8 @@ body {
   padding: 0;
   margin: 0;
   font-family: sans-serif;
-  color: var(--stella-green);
-  background-color: var(--stella-coral-light);
+  color: var(--stella-red);
+  background-color: var(--stella-blue);
 }
 p:last-child {
   margin-bottom: 0;
@@ -37,10 +37,10 @@ p,
   line-height: 1.45;
 }
 a[href] {
-  color: var(--blue);
+  color: var(--stella-coral-light);
 }
 a[href]:visited {
-  color: var(--navy);
+  color: var(--stella-coral-dark);
 }
 main {
   padding: 1rem;
@@ -49,7 +49,7 @@ main :first-child {
   margin-top: 0;
 }
 header {
-  border-bottom: 1px dashed var(--lightgray);
+  border-bottom: 1px dashed var(--stella-red);
 }
 header:after {
   content: "";
